@@ -21,7 +21,7 @@ continue;
 putchar(alphabet);
 }
 
-purchar('\n');
+putchar('\n');
 	
 return (0);
 
