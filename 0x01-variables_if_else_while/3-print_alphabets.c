@@ -2,36 +2,27 @@
 /**
  * main - Program entry point
  *
- * Return: 0 on success. Error code otherwise
+ * Return: Always 0 on (Success/correct)
  */
 int main(void)
-{
-	
-char a = 'a';
-char A = 'A';
-
-int n = 0;
-
-while (n < 52)
 
 {
-if (n < 26)
+char lower_case;
+char upper_case;
 
-putchar(a);
-a++;
+for (lower_case = 'a' ; lower_case <= 'z' ; lower_case++)
+{
+putchar(lower_case);
 }
 
-if else
 
+for (upper_case = 'A' ; upper_case <= 'Z' ; upper_case++)
 {
-putchar(A);
-A++;
+putchar(upper_case);
 }
 
-{
-n++;
-}
-putchar('\n');
+
+putchar ( '\n');
 
 return (0);
 
