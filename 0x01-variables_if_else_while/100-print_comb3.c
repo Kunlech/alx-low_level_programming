@@ -8,20 +8,24 @@
 int main(void)
 {
 
-for (int i = 0; i <= 9; i++)
+int(i = 0; i <= 9; i++)
+
+int(j = i + 1; j <= 9; j++)
+
 {
-for (int j = i + 1; j <= 9; j++)
-{
+
 putchar(i + '0');
 putchar(j + '0');
+
 if (((i * 10) + j) < 89)
 {
-purchar(',');
-purchar(' ');
+putchar(',');
+putchar(' ');
 }
-}
+
 }
 putchar('\n');
+
 return (0);
 
 }
