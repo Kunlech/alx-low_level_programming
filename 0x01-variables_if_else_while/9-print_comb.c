@@ -16,13 +16,13 @@ putchar(number);
 if (number == 57)
 }
 break;
-{
 
+{
 putchar(',');
 putchar (' ');
 }
 
-puchar('\n');
+putchar('\n');
 
 return (0);
 
